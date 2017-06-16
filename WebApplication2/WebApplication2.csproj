@@ -176,6 +176,7 @@
     <Content Include="8JSinHead.aspx" />
     <Content Include="9JSinBody.aspx" />
     <Content Include="10JSExternalfile.aspx" />
+    <Content Include="11JSExternalReferences.aspx" />
     <Content Include="WebForm2.aspx" />
     <Content Include="1MyFirstJavaScript.aspx" />
     <Content Include="2HelloJavaScript.aspx" />
@@ -416,6 +417,13 @@
     </Compile>
     <Compile Include="10JSExternalfile.aspx.designer.cs">
       <DependentUpon>10JSExternalfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="11JSExternalReferences.aspx.cs">
+      <DependentUpon>11JSExternalReferences.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="11JSExternalReferences.aspx.designer.cs">
+      <DependentUpon>11JSExternalReferences.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm2.aspx.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
