@@ -145,6 +145,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="13JSoutputDocumentWrite.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
     <Content Include="Account\Confirm.aspx" />
@@ -177,6 +178,7 @@
     <Content Include="9JSinBody.aspx" />
     <Content Include="10JSExternalfile.aspx" />
     <Content Include="11JSExternalReferences.aspx" />
+    <Content Include="12JSOutputInnerHtml.aspx" />
     <Content Include="WebForm2.aspx" />
     <Content Include="1MyFirstJavaScript.aspx" />
     <Content Include="2HelloJavaScript.aspx" />
@@ -233,6 +235,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="13JSoutputDocumentWrite.aspx.cs">
+      <DependentUpon>13JSoutputDocumentWrite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="13JSoutputDocumentWrite.aspx.designer.cs">
+      <DependentUpon>13JSoutputDocumentWrite.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Account\AddPhoneNumber.aspx.cs">
       <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -424,6 +433,13 @@
     </Compile>
     <Compile Include="11JSExternalReferences.aspx.designer.cs">
       <DependentUpon>11JSExternalReferences.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm14.aspx.cs">
+      <DependentUpon>12JSOutputInnerHtml.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm14.aspx.designer.cs">
+      <DependentUpon>12JSOutputInnerHtml.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm2.aspx.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
