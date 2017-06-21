@@ -179,6 +179,11 @@
     <Content Include="10JSExternalfile.aspx" />
     <Content Include="11JSExternalReferences.aspx" />
     <Content Include="12JSOutputInnerHtml.aspx" />
+    <Content Include="14JSDocumentWrite2.aspx" />
+    <Content Include="15JSWindowAlert.aspx" />
+    <Content Include="16JSConsoleLog.aspx" />
+    <Content Include="17JSprograms.aspx" />
+    <Content Include="18JSREdeclareVabs.aspx" />
     <Content Include="WebForm2.aspx" />
     <Content Include="1MyFirstJavaScript.aspx" />
     <Content Include="2HelloJavaScript.aspx" />
@@ -187,6 +192,14 @@
     <Content Include="5JSHideHTMLElement.aspx" />
     <Content Include="6JDisplayHTMLElement.aspx" />
     <Content Include="7TheScriptTag.aspx" />
+    <Content Include="19JSTryYourself.aspx" />
+    <Content Include="20JSNowTryThis.aspx" />
+    <Content Include="21JSArrays.aspx" />
+    <Content Include="22JSBooleans.aspx" />
+    <Content Include="23JSObjects.aspx" />
+    <Content Include="24JSTypeOFoperator.aspx" />
+    <Content Include="25JSFunction.aspx" />
+    <Content Include="26JSObject setting to null.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -441,6 +454,41 @@
     <Compile Include="WebForm14.aspx.designer.cs">
       <DependentUpon>12JSOutputInnerHtml.aspx</DependentUpon>
     </Compile>
+    <Compile Include="14JSDocumentWrite2.aspx.cs">
+      <DependentUpon>14JSDocumentWrite2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="14JSDocumentWrite2.aspx.designer.cs">
+      <DependentUpon>14JSDocumentWrite2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="15JSWindowAlert.aspx.cs">
+      <DependentUpon>15JSWindowAlert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="15JSWindowAlert.aspx.designer.cs">
+      <DependentUpon>15JSWindowAlert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="16JSConsoleLog.aspx.cs">
+      <DependentUpon>16JSConsoleLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="16JSConsoleLog.aspx.designer.cs">
+      <DependentUpon>16JSConsoleLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="17JSprograms.aspx.cs">
+      <DependentUpon>17JSprograms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="17JSprograms.aspx.designer.cs">
+      <DependentUpon>17JSprograms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="18JSREdeclareVabs.aspx.cs">
+      <DependentUpon>18JSREdeclareVabs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="18JSREdeclareVabs.aspx.designer.cs">
+      <DependentUpon>18JSREdeclareVabs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm2.aspx.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -496,6 +544,62 @@
     </Compile>
     <Compile Include="7TheScriptTag.aspx.designer.cs">
       <DependentUpon>7TheScriptTag.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="19JSTryYourself.aspx.cs">
+      <DependentUpon>19JSTryYourself.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="19JSTryYourself.aspx.designer.cs">
+      <DependentUpon>19JSTryYourself.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="20JSNowTryThis.aspx.cs">
+      <DependentUpon>20JSNowTryThis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="20JSNowTryThis.aspx.designer.cs">
+      <DependentUpon>20JSNowTryThis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="21JSArrays.aspx.cs">
+      <DependentUpon>21JSArrays.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="21JSArrays.aspx.designer.cs">
+      <DependentUpon>21JSArrays.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="22JSBooleans.aspx.cs">
+      <DependentUpon>22JSBooleans.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="22JSBooleans.aspx.designer.cs">
+      <DependentUpon>22JSBooleans.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="23JSObjects.aspx.cs">
+      <DependentUpon>23JSObjects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="23JSObjects.aspx.designer.cs">
+      <DependentUpon>23JSObjects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="24JSTypeOFoperator.aspx.cs">
+      <DependentUpon>24JSTypeOFoperator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="24JSTypeOFoperator.aspx.designer.cs">
+      <DependentUpon>24JSTypeOFoperator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="25JSFunction.aspx.cs">
+      <DependentUpon>25JSFunction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="25JSFunction.aspx.designer.cs">
+      <DependentUpon>25JSFunction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="26JSObject setting to null.aspx.cs">
+      <DependentUpon>26JSObject setting to null.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="26JSObject setting to null.aspx.designer.cs">
+      <DependentUpon>26JSObject setting to null.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
